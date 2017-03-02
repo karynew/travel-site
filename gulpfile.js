@@ -1,5 +1,2 @@
-var gulp = require('gulp');
-
-gulp.task('default', function(){
-  console.log("hello you create a gulptask");
-});
+require('./gulp/task/styles');
+require('./gulp/task/watch');
